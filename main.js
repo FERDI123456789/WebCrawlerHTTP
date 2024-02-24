@@ -8,7 +8,7 @@ async function main(){
     }
 
     if (process.argv.length > 3){
-        console.log("tto many command line args")
+        console.log("too many command line args")
         process.exit(1)
     }
     const baseURL = process.argv[2]
